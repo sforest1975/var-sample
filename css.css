@@ -1,0 +1,15 @@
+* {
+  --one-width: 100px;
+}
+
+div {
+  background-color: blue;
+}
+
+#one {
+  width: var(--one-width);
+}
+
+#two {
+  width: calc(var(--one-width) / 2);
+}
